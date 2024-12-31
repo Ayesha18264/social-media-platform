@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile-create-container">
+        <div class="profile-card">
+            <h2>Create Your Profile</h2>
+            <form id="profile-form">
+                <div class="profile-pic-upload">
+                    <img id="profile-pic-preview" src="https://via.placeholder.com/150" alt="Profile Pic">
+                    <input type="file" id="profile-pic" accept="image/*">
+                </div>
+                <input type="text" id="name" placeholder="Your Name" required><br>
+                <input type="text" id="username" placeholder="Username" required><br>
+                <textarea id="bio" placeholder="Bio" required></textarea><br>
+                <button type="submit">Create Profile</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
